@@ -31,9 +31,7 @@ border: 0px;
     width: 94%;
     height: 5.9vh;
     background-color: rgb(255, 255, 255);
-    /* padding: 10px 10px 10px 10px; */
     border-radius: 7px;
-    /* border: 0px; */
     display: flex;
     align-items: center;
     }
@@ -107,19 +105,11 @@ textarea:focus, input:focus {
   }
   .box5{
     display: flex;
-    /* gap: 45px; */
-    /* align-items:center; */
     margin: 0px 0px 0px 17%;
     justify-content: space-between;
   }
-  .box6{
-    /* font-size: 20px; */
-  }
   .box7{
     padding: 0px 40px 0px 0px;
-  }
-  .box8{
-    /* font-size: 20px; */
   }
   .box9{
     display: flex;
@@ -133,8 +123,6 @@ textarea:focus, input:focus {
   }
   .box11{
     display: flex;
-  }
-  .box12{
   }
   .box13{
     display: flex;
@@ -207,11 +195,6 @@ textarea:focus, input:focus {
 .box19{
     margin: 75px 0px 0px 0px;
 }
-@media screen and (max-width:757px) {
-    .box19{
-    /* margin: 75px 0px 0px 90px; */
-    }
-}
 .box20{
     display: flex;
     gap: 55px;
@@ -249,7 +232,6 @@ textarea:focus, input:focus {
 }
 .box24{
     margin: 5px 0px;
-    /* font-size: 20px; */
 }
 @media screen and (max-width:757px) {
     .box24{
@@ -312,9 +294,6 @@ textarea:focus, input:focus {
 .box30{
     color: white;
     margin: 0px;
-}
-.box31{
-    /* width: 31vh; */
 }
 .box38{
     width: 70vh;
