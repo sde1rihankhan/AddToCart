@@ -82,20 +82,15 @@ textarea:focus, input:focus {
     background-color: black;
     margin: 90px 0px 0px 90px;
   }
-  @media screen and (max-width:756px) {
-    .box4{
-    width: 75vh;
-    }
-}
 @media screen and (max-width:700px) {
     .box4{
-    width: 69vh;
+    width: 55vh;
     margin: 90px 0px 0px 80px;
     }
 }
 @media screen and (max-width:650px) {
     .box4{
-    width: 61vh;
+    width: 48vh;
     }
 }
   .image1{
@@ -135,14 +130,14 @@ textarea:focus, input:focus {
   }
 .box15{
     display: flex;
-    gap: 75px;
+    gap: 100px;
 }
 @media screen and (max-width:819px) {
     .box15{
-    gap:36px ;
+    gap:60px ;
     }
 }
-@media screen and (max-width:757px) {
+@media screen and (max-width:908px) {
     .box15{
     justify-content: space-around;
     }
@@ -152,42 +147,42 @@ textarea:focus, input:focus {
 }
 .box16{
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 @media screen and (max-width:591px) {
     .box16{
     display: none;
     }
 }
-@media screen and (max-width:757px) {
+@media screen and (max-width:908px) {
     .box16{
     flex-direction: column;
     }
 }
 .box17{
     display: flex;
-    gap: 27px;
+    gap: 52px;
 }
 @media screen and (max-width:819px) {
     .box17{
-    gap:7px ;
+    gap:29px ;
     }
 }
-@media screen and (max-width:757px) {
+@media screen and (max-width:908px) {
     .box17{
     justify-content: space-around;
     }
 }
 .box18{
     display: flex;
-    gap: 32px;
+    gap: 58px;
 }
 @media screen and (max-width:819px) {
     .box18{
-    gap:5px ;
+    gap:25px ;
     }
 }
-@media screen and (max-width:757px) {
+@media screen and (max-width:908px) {
     .box18{
     justify-content: space-around;
     }
@@ -197,14 +192,14 @@ textarea:focus, input:focus {
 }
 .box20{
     display: flex;
-    gap: 55px;
+    gap: 59px;
 }
 @media screen and (max-width:819px) {
     .box20{
-    gap:13px ;
+    gap:28px ;
     }
 }
-@media screen and (max-width:757px) {
+@media screen and (max-width:908px) {
     .box20{
     justify-content: space-around;
     }
@@ -213,7 +208,7 @@ textarea:focus, input:focus {
     margin: 0px;
     font-size: 15px;
 }
-@media screen and (max-width:757px) {
+@media screen and (max-width:908px) {
     .box21{
     font-size: 20px;
     }
@@ -221,19 +216,20 @@ textarea:focus, input:focus {
 .box22{
     margin: 5px 0px;
 }
-@media screen and (max-width:757px) {
+@media screen and (max-width:908px) {
     .box22{
     font-size: 20px;
     }
 }
 .box23{
-    height: 50%;
+    height: 24vh;
     align-content:end ;
 }
 .box24{
     margin: 5px 0px;
+    font-size: 19px;
 }
-@media screen and (max-width:757px) {
+@media screen and (max-width:908px) {
     .box24{
     font-size: 20px;
     }
@@ -248,9 +244,10 @@ textarea:focus, input:focus {
 }
 .box27{
     text-align: center;
+    margin-bottom:29px ;
 }
 .box26{
-    padding: 9px 45px;
+    padding: 9px 60px;
     background-color: #FFD600;
     border: 0px;
     border-radius:5px;
@@ -265,7 +262,7 @@ textarea:focus, input:focus {
     padding:9px 24px ;
     }
 }
-@media screen and (max-width:757px) {
+@media screen and (max-width:908px) {
     .box26{
     width: 61%;
     margin: 50px 0px 0px 0px;
@@ -278,17 +275,19 @@ textarea:focus, input:focus {
     align-content: center;
 }
 .box29{
-    height: 20.8vh;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     align-content:end ;
-}
-@media screen and (max-width:1300px) {
-    .box29{
-    height: 184.3px;
-    }
 }
 @media screen and (max-width:591px) {
     .box29{
     display: none;
+    }
+}
+@media screen and (max-width:908px) {
+    .box29{
+    position: static;
     }
 }
 .box30{
@@ -395,17 +394,14 @@ textarea:focus, input:focus {
     align-content:center ;
 }
 .box54{
-    height: 24.6vh;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
     align-content:end ;
 }
 @media screen and (min-width:592px) {
     .box54{
     display: none;
-    }
-}
-@media screen and (max-width:550px) {
-    .box54{
-    height: 30.5vh;
     }
 }
 .box56{
@@ -434,14 +430,14 @@ textarea:focus, input:focus {
     display: none;
     }
 }
-@media screen and (max-width:757px) {
+@media screen and (max-width:908px) {
     .box60{
     font-size: 20px;
-    margin-left: 19%;
+    margin-left: 18.5%;
     }
 }
 @media screen and (max-width:645px) {
     .box60{
-    margin-left: 18%;
+    margin-left: 17%;
     }
 }
