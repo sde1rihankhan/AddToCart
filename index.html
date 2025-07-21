@@ -16,7 +16,7 @@
         </div>
       </div>
     </div>
-    <button class="page1">Back to Products</button>
+    <button onclick="backPage()" class="page1">Back to Products</button>
     <div class="box2">
       <img class="box1" src="./Vector.png" />
       <p class="box3">My Cart</p>
@@ -88,7 +88,7 @@
               <p class="box24">₹3545</p>
             </div>
             <div class="box27">
-              <button class="box26">PLACE ORDER</button>
+              <button onclick="newPage()" class="box26">PLACE ORDER</button>
             </div>
           </div>
         </div>
@@ -116,7 +116,7 @@
     </div>
     <p class="box52">Total Amount ₹3545</p>
     <div class="box59">
-      <button class="box58">PLACE ORDER</button>
+      <button onclick="newPage()" class="box58">PLACE ORDER</button>
     </div>
     <div class="box29">
       <div class="box28">
@@ -143,7 +143,10 @@
     </div>
     <script>
       function newPage(){
-        window.location.href = "http://127.0.0.1:5502/successfulPage/Successfull.html"
+        window.location.href = "http://127.0.0.1:5502/successfulPage/index.html"
+      }
+      function backPage(){
+        window.location.href = "http://127.0.0.1:5502/Musicart/ProdectDetalePage/index.html"
       }
     </script>
   </body>
